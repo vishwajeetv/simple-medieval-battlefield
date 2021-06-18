@@ -75,17 +75,23 @@ function Main() {
               // cell.state = null;
               // setStartCellSelected(null);
               // } else {
-              cell.state = `TARGETED`;
-              cell.unit.HP =
-                cell.unit.HP - (startCell.unit.ATK - cell.unit.DEF);
+              if (startCell.unit) {
+                cell.state = `TARGETED by ${startCell.unit.NAME}`;
+                if (cell.unit) {
+                  cell.unit.HP =
+                    cell.unit.HP - (startCell.unit.ATK - cell.unit.DEF);
+                }
+              }
+
               setTargetCell(cell);
               setStartCellSelected(false);
               // }
             } else {
               // if (cell.state && cell.state === "STARTED") {
-              // cell.state = null;
-              // setStartCellSelected(null);
-              if (startCellSelected === null) {
+              //   cell.state = null;
+              //   setStartCellSelected(null);
+              // }
+              if (true) {
                 cell.state = "STARTED";
                 setStartCell(cell);
                 setStartCellSelected(true);
@@ -94,6 +100,8 @@ function Main() {
                 setStartCellSelected(null);
               }
             }
+          } else {
+            cell.state = null;
           }
           return cell;
         });
@@ -110,6 +118,7 @@ function Main() {
 
   return (
     <>
+      Battlefield
       {_.map(matrix, (row) => {
         return (
           <>
