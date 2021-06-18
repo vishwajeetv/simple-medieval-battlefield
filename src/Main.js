@@ -130,12 +130,14 @@ function Main() {
                           selectCell(cell.id, row.id, cell);
                         }}
                       >
-                        {cell.unit?.NAME}
-                        {cell.unit?.NAME && <>---</>}
-                        {cell.state}
-                        <br />
-                        {cell.unit?.HP}
-                        {cell.unit?.HP === 0 ? " XXX DEAD" : ""}
+                        <CardContent>
+                          {cell.unit?.NAME}
+                          {cell.unit?.NAME && <>---</>}
+                          {cell.state}
+                          <br />
+                          {cell.unit ? `HP ${cell.unit.HP}` : ``}
+                          {cell.unit?.HP === 0 ? " XX DEAD" : ""}
+                        </CardContent>
                       </Card>
                     </Grid>
                   </>
