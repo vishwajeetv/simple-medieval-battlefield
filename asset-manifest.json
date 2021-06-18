@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/battlefield/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/battlefield/static/js/main.b9069476.chunk.js",
+    "main.js.map": "/battlefield/static/js/main.b9069476.chunk.js.map",
+    "runtime-main.js": "/battlefield/static/js/runtime-main.a0b4b125.js",
+    "runtime-main.js.map": "/battlefield/static/js/runtime-main.a0b4b125.js.map",
+    "static/js/2.6d5bd162.chunk.js": "/battlefield/static/js/2.6d5bd162.chunk.js",
+    "static/js/2.6d5bd162.chunk.js.map": "/battlefield/static/js/2.6d5bd162.chunk.js.map",
+    "static/js/3.ea592f6f.chunk.js": "/battlefield/static/js/3.ea592f6f.chunk.js",
+    "static/js/3.ea592f6f.chunk.js.map": "/battlefield/static/js/3.ea592f6f.chunk.js.map",
+    "index.html": "/battlefield/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/battlefield/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.6d5bd162.chunk.js.LICENSE.txt": "/battlefield/static/js/2.6d5bd162.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/battlefield/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0b4b125.js",
+    "static/js/2.6d5bd162.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.b9069476.chunk.js"
+  ]
+}
